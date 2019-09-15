@@ -2,6 +2,7 @@
 This includes Projects, challenges, quizzes, JavaScript ES6+, OOP, AJAX, Webpack, from the 2019 Javascript Course found on Udemy.
 
 ### Coding Challenge 1
+----------------------
 
 #### Javascript language basics:
 * variables
@@ -10,6 +11,4 @@ This includes Projects, challenges, quizzes, JavaScript ES6+, OOP, AJAX, Webpack
 
 ###### Opened using liveserver: 
 
-![challenge 1](/JS-Basics/images/challenge1.png)
-
-<img src="/JS-Basics/images/challenge1.png" width="400">
+<img src="/JS-Basics/images/challenge1.png" width="600">
