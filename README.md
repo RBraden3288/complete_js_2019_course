@@ -1,13 +1,13 @@
-# complete_js_2019_course
-Projects, challenges, quizzes, JavaScript ES6+, OOP, AJAX, Webpack, from the 2019 Javascript Course found on Udemy.
+# Complete JS 2019 Course
+This includes Projects, challenges, quizzes, JavaScript ES6+, OOP, AJAX, Webpack, from the 2019 Javascript Course found on Udemy.
 
-### coding challenge 1
+### Coding Challenge 1
 
-###### Javascript language basics:
+#### Javascript language basics:
 * variables
 * operations
 * console logs
 
-Opened using liveserver: 
+###### Opened using liveserver: 
 
-![challenge 1](/JS-Basics/images/challenge1.png)
+![challenge 1](/JS-Basics/images/challenge1.png = 400)
