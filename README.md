@@ -8,4 +8,5 @@ Projects, challenges, quizzes, JavaScript ES6+, OOP, AJAX, Webpack, from the 201
 * operations
 * console logs
 
-![challenge 1](/images/challenge1.png)
+Opened using liveserver: 
+![challenge 1](JS Basics/images/challenge1.png)
