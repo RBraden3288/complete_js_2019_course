@@ -10,4 +10,6 @@ This includes Projects, challenges, quizzes, JavaScript ES6+, OOP, AJAX, Webpack
 
 ###### Opened using liveserver: 
 
-![challenge 1](/JS-Basics/images/challenge1.png = 400)
+![challenge 1](/JS-Basics/images/challenge1.png)
+
+<img src="/JS-Basics/images/challenge1.png" width="400">
