@@ -23,4 +23,14 @@ if (teamMikeAvg > teamJohnAvg) {
     console.log ('Mike\'s team won by an average of ' + (teamMikeAvg - teamJohnAvg) + ' points.')
 } else {
     console.log('John\'s team won by an average of ' + (teamJohnAvg - teamMikeAvg) + ' points.');
-} 
+};
+
+// EXTRA
+
+var teamMaryAvg = (97 + 134 + 105)/3;
+console.log('Mary\'s team average: ', teamMaryAvg);
+
+if (teamMaryAvg > teamJohnAvg && teamMikeAvg) {
+    console.log('Mary\'s team won.')
+} else {('Mike\'s team still wins.') 
+};

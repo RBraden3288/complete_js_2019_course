@@ -12,3 +12,8 @@ This includes Projects, challenges, quizzes, JavaScript ES6+, OOP, AJAX, Webpack
 ###### Opened using liveserver: 
 
 <img src="/JS-Basics/images/challenge1.png" width="600">
+
+### Coding Challenge 2
+----------------------
+
+<img src="/JS-Basics/images/challenge2.png" width="600">
