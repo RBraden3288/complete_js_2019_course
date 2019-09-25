@@ -3,10 +3,12 @@ This includes Projects, challenges, quizzes, JavaScript ES6+, OOP, AJAX, Webpack
 
 ## PART 1:
 
-#### Javascript language basics: BMI
+#### Javascript language basics:
 * variables
 * operations
 * console logs
+* arrays
+* functions
 
 ### Coding Challenge 1: BMI
 ----------------------
