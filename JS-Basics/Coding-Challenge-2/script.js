@@ -21,8 +21,10 @@ console.log('Mike\'s Team Average:', teamMikeAvg)
 
 if (teamMikeAvg > teamJohnAvg) {
     console.log ('Mike\'s team won by an average of ' + (teamMikeAvg - teamJohnAvg) + ' points.')
-} else {
+} else if (teamJohnAvg > teamMikeAvg) {
     console.log('John\'s team won by an average of ' + (teamJohnAvg - teamMikeAvg) + ' points.');
+} else {
+    console.log('It\'s a draw.')
 };
 
 // EXTRA
