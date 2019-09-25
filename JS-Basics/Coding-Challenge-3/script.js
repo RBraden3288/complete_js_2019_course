@@ -29,5 +29,12 @@ var tips = [
 ];
 console.log('These are the tip amounts: ', tips)
 
-var htmlTips = document.getElementById('tipAmount').innerHTML="Tip Amounts: " + tips;
+var finalAmounts = [
+    billAmounts[0] + tips[0],
+    billAmounts[1] + tips[1],
+    billAmounts[2] + tips[2]
+];
+console.log('These are the full amounts: ', finalAmounts);
 
+document.getElementById('tipAmount').innerHTML="Tip Amounts: " + tips;
+document.getElementById('fullAmount').innerHTML="Total Amount Paid: " + finalAmounts;
