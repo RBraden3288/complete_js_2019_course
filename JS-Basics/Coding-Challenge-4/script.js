@@ -30,3 +30,8 @@ if (johnBMI > markBMI) {
 } else {
     console.log('Mark and John have the same BMI');
 };
+
+//push each BMI to person's object
+john.bmi = johnBMI;
+mark.bmi= markBMI;
+console.log(john, mark);
