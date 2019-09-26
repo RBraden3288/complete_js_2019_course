@@ -9,6 +9,8 @@ This includes Projects, challenges, quizzes, JavaScript ES6+, OOP, AJAX, Webpack
 * console logs
 * arrays
 * functions
+* objects
+* methods
 
 ### Coding Challenge 1: BMI
 ----------------------
@@ -24,6 +26,10 @@ This includes Projects, challenges, quizzes, JavaScript ES6+, OOP, AJAX, Webpack
 ----------------------
 
 <img src="/JS-Basics/images/challenge3.png" width="600">
+
+### Coding Challenge 4: BMIs with Objects and Methods
+----------------------
+<img src="/JS-Basics/images/challenge4.png" width="600">
 
 ### Resources:
 ----------------
