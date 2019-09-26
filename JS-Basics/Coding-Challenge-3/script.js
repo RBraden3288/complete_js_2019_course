@@ -12,9 +12,10 @@ function tipCaluclator(bill) {
     } else { 
         percentage = (10/100);
     }
-    var tip = percentage * bill;
-    //return tip amount to 2 decimal places
-    return tip.toFixed(2);
+    return percentage * bill;
+    // var tip = percentage * bill;
+    // //return tip amount to 2 decimal places
+    // return tip.toFixed(2);
 };
 
 // for (i = 0; i>billAmounts.length; i++) {
@@ -29,6 +30,14 @@ var tips = [
 ];
 console.log('These are the tip amounts: ', tips)
 
+var roundedTips = [
+    tips[0].toFixed(2),
+    tips[1].toFixed(2),
+    tips[2].toFixed(2)
+];
+
+console.log(roundedTips);
+
 var finalAmounts = [
     billAmounts[0] + tips[0],
     billAmounts[1] + tips[1],
@@ -36,5 +45,5 @@ var finalAmounts = [
 ];
 console.log('These are the full amounts: ', finalAmounts);
 
-document.getElementById('tipAmount').innerHTML="Tip Amounts: " + tips;
+document.getElementById('tipAmount').innerHTML="Tip Amounts: " + roundedTips;
 document.getElementById('fullAmount').innerHTML="Total Amount Paid: " + finalAmounts;
