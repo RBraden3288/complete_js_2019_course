@@ -23,8 +23,10 @@ This includes Projects, challenges, quizzes, JavaScript ES6+, OOP, AJAX, Webpack
 ### Coding Challenge 3: Tip Calculator
 ----------------------
 
+<img src="/JS-Basics/images/challenge3.png" width="600">
 
 ### Resources:
 ----------------
 
 * liveserver
+* stackoverflow

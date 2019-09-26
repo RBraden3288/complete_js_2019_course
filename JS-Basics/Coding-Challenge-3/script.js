@@ -36,6 +36,9 @@ var roundedTips = [
     tips[2].toFixed(2)
 ];
 
+var roundedTipsFormat =
+    roundedTips.join(', $');
+
 console.log(roundedTips);
 
 var finalAmounts = [
@@ -43,7 +46,11 @@ var finalAmounts = [
     billAmounts[1] + tips[1],
     billAmounts[2] + tips[2]
 ];
+
+var finalAmountsFormat = 
+    finalAmounts.join(', $');
+
 console.log('These are the full amounts: ', finalAmounts);
 
-document.getElementById('tipAmount').innerHTML="Tip Amounts: " + roundedTips;
-document.getElementById('fullAmount').innerHTML="Total Amount Paid: " + finalAmounts;
+document.getElementById('tipAmount').innerHTML="Tip Amounts: " + roundedTipsFormat;
+document.getElementById('fullAmount').innerHTML="Total Amount Paid: " + finalAmountsFormat;
