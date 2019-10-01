@@ -29,12 +29,26 @@ for (var i = 0; i < john.bills.length; i++) {
     console.log(bill);
 
     var tips = calculateTip(bill);
-    var roundedTips = tips.toFixed(2);
+    var roundedTips = parseFloat(tips.toFixed(2));
+    //push to tips array
     john.tips.push(roundedTips);
     console.log('These are the tip amounts: ', roundedTips)
 
     var finalBill = (roundedTips + bill);
     console.log('Final amounts: ', finalBill)
+    // push to final bill array
+    john.finalBills.push(finalBill);
 };
 
-console.log(john)
+console.log(john);
+
+var addDollarSign = {
+    bills: john.bills.join(', $'),
+    tips: john.tips.join(', $'),
+    finalBill: john.finalBills.join(', $')
+};
+// console.log(addDollarSign);
+
+var billToString = $('.john-bills').text('John\'s bills were for the following amounts: $' + addDollarSign.bills + '.');
+var tipsToString = $('.john-tips').text('John tipped the following amounts on the bills above: $' + addDollarSign.tips + '.');
+var finalBillToString = $('.john-final').text('John\'s final totals are as follows: $' + addDollarSign.finalBill +'.');

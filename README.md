@@ -31,6 +31,10 @@ This includes Projects, challenges, quizzes, JavaScript ES6+, OOP, AJAX, Webpack
 ----------------------
 <img src="/JS-Basics/images/challenge4.png" width="600">
 
+### Coding Challenge 5: Comprehensive Challenge with For-Loops
+----------------------
+<img src="/JS-Basics/images/challenge5.png" width="800">
+
 ### Resources:
 ----------------
 
