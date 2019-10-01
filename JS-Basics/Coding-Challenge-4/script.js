@@ -8,7 +8,7 @@ var mark = {
 
 var john = {
     fullName: "John Bar",
-    mass: 67,
+    mass: 75,
     height: 1.68
 };
 
